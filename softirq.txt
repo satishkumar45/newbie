@@ -1,0 +1,11 @@
+softirq:
+
+softirqs are a set of statically defined bottom halves which can run simultaneously on any of the processor.
+even two of the same type can run on any processor concurrently 
+because two softirqs can run concurrently,it is the responsibility of the programmer to take care of synchronization between softirqs
+
+A softirq never preempts other softirq.
+only interrupt handler can preempt softirq.
+
+softirq runs with interrupt enabled and can't sleep as it runs in
+interrupt context.
