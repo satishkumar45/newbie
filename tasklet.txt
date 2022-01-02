@@ -1,0 +1,9 @@
+Tasklets is another bottom-half mechanism which is built on top of softirq.
+
+same tasklets cannot run on morethan one processor at same time.
+
+so in tasklets we need not to worry about synchronization among them.
+
+Tasklets has very simple interface as compared to softirq.
+
+tasklets cannot sleep as it runs in interrupt context.
