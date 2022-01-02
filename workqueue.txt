@@ -1,0 +1,9 @@
+workqueue use kernel thread to handle the deferred work.
+this bottom half runs in process context.
+
+workqueues can be scheduled and sleep.
+
+if your work needs to sleep then only way left is to defer the work by 
+using workqueues.
+
+but if your work need not to sleep then better to go for tasklets/softirq.
