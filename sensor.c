@@ -22,3 +22,8 @@ static int open_the_device(struct memory_write *val,int cmd,long arg)
 {
     printk(KERN_ALERT"open the device \n");   
 }
+static ioctl(struct file *fil,int cmd,long args)
+{
+  printk(KERN_ALERT"IOCTL FUNCTIONAL TO READ AND WRITE ANY DEVICE \n");
+
+}
