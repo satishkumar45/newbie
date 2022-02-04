@@ -20,5 +20,5 @@ static int memory_read_data(struct memory_write *val,semichip)
 }
 static int open_the_device(struct memory_write *val,int cmd,long arg)
 {
-   
+    printk(KERN_ALERT"open the device \n");   
 }
