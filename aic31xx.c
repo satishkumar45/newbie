@@ -7,3 +7,10 @@ snd_soc_jack(jack1,jack2)
    soc_control("jack detected \n");
 
 }
+
+void soc_enable_the_point(uint32_t num)
+{
+   uint32_t plain;
+   soc(phy_address_jack_interrupt,0);
+   return EINTR;
+}
