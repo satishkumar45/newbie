@@ -1,3 +1,4 @@
+// this logic utilised for looping
 #include<stdio.h>
 int main()
 {
