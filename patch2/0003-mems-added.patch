@@ -1,0 +1,25 @@
+From 3db82a1a3c7e6eb2eba737860c96b2adc84055b7 Mon Sep 17 00:00:00 2001
+From: satishkumar45 <sksatishkumar133@gmail.com>
+Date: Sat, 12 Mar 2022 16:50:25 +0530
+Subject: [PATCH 3/4] mems added
+
+---
+ links/version/mems.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ create mode 100644 links/version/mems.c
+
+diff --git a/links/version/mems.c b/links/version/mems.c
+new file mode 100644
+index 0000000..459471d
+--- /dev/null
++++ b/links/version/mems.c
+@@ -0,0 +1,6 @@
++#include<stdio.h>
++int main()
++{
++   printf("sample practise");
++   return 0;
++}
+-- 
+2.7.4
+

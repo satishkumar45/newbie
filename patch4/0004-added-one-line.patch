@@ -1,0 +1,24 @@
+From 8d7785372d193adc10d3f10525b9a7d1197bf4ab Mon Sep 17 00:00:00 2001
+From: satishkumar45 <sksatishkumar133@gmail.com>
+Date: Sat, 12 Mar 2022 16:59:12 +0530
+Subject: [PATCH 4/5] added one line
+
+---
+ nerv.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/nerv.c b/nerv.c
+index d259121..9d38fa9 100644
+--- a/nerv.c
++++ b/nerv.c
+@@ -5,6 +5,7 @@ int main()
+     static j=30;
+     j++;
+     i++;
++    printf("info for the data");
+     printf("%d%d",i,j);
+     return 0;
+ }
+-- 
+2.7.4
+

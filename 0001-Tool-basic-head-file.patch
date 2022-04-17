@@ -1,0 +1,56 @@
+From 73614fe06971ea8a57e32498ab7b9a418689d9af Mon Sep 17 00:00:00 2001
+From: satishkumar45 <sksatishkumar133@gmail.com>
+Date: Sun, 20 Mar 2022 19:04:30 +0530
+Subject: [PATCH] Tool: basic head file added function.
+
+Signed-off-by: satishkumar45 <sksatishkumar133@gmail.com>
+---
+ 0001-Tool-stranded-exer-line-added.patch | 24 ++++++++++++++++++++++++
+ basic_head.c                             |  2 +-
+ 2 files changed, 25 insertions(+), 1 deletion(-)
+ create mode 100644 0001-Tool-stranded-exer-line-added.patch
+
+diff --git a/0001-Tool-stranded-exer-line-added.patch b/0001-Tool-stranded-exer-line-added.patch
+new file mode 100644
+index 0000000..14adad1
+--- /dev/null
++++ b/0001-Tool-stranded-exer-line-added.patch
+@@ -0,0 +1,24 @@
++From b7e9f53f6c7cc7c607473bc10b33ce0f19c6377b Mon Sep 17 00:00:00 2001
++From: satishkumar45 <sksatishkumar133@gmail.com>
++Date: Sun, 20 Mar 2022 18:30:03 +0530
++Subject: [PATCH] Tool:stranded:exer line added Add appy() function.
++
++Signed-off-by: satishkumar45 <sksatishkumar133@gmail.com>
++---
++ exer.c | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/exer.c b/exer.c
++index 89a1a93..75da5d8 100644
++--- a/exer.c
+++++ b/exer.c
++@@ -3,5 +3,6 @@ int main()
++ {
++    printf("welcome\n");
++    apply(2);
+++   apply(3);
++    return 0;
++ }
++-- 
++2.7.4
++
+diff --git a/basic_head.c b/basic_head.c
+index 3127ad6..6e8a9be 100644
+--- a/basic_head.c
++++ b/basic_head.c
+@@ -2,5 +2,5 @@
+ int main()
+ {
+    printf("laugh laugh and learn c with boring while learning\n");
+-
++   basic();
+ }
+-- 
+2.7.4
+
