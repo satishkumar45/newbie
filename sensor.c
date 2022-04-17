@@ -25,3 +25,4 @@ static ioctl(struct file *fil,int cmd,long args)
 {
   printk(KERN_ALERT"IOCTL FUNCTIONAL TO READ AND WRITE ANY DEVICE \n");
 }
+
